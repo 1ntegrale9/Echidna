@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="echidna",
-    version="0.0.1",
+    version="0.1.0",
     author="1ntegrale9",
     author_email="1ntegrale9uation@gmail.com",
     description="BOT and CLI framework for handling multiple services in python",
@@ -17,5 +17,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        "numpy >= 1.17.4",
     ],
 )
