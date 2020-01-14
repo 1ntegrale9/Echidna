@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="echidna",
-    version="0.2.0",
+    version="0.2.1",
     author="1ntegrale9",
     author_email="1ntegrale9uation@gmail.com",
     description="BOT and CLI framework for handling multiple services in python",
@@ -20,5 +20,6 @@ setuptools.setup(
     ],
     install_requires=[
         "numpy >= 1.6",
+        "discord.py => 1.2.5"
     ],
 )
